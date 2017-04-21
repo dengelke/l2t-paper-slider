@@ -104,7 +104,7 @@ Custom property | Description | Default
         -webkit-transition: opacity .5s .1s cubic-bezier(.51, .92, .24, 1.15);
         transition: opacity .5s .1s cubic-bezier(.51, .92, .24, 1.15);
         position: absolute;
-        background: var(--paper-slide-dot-selected, #FFF);
+        background: var(--paper-slide-dot-selected, #FFD500);
         border-color: rgba(0,0,0,0);
         background-clip: padding-box;
         opacity: 0;
@@ -119,15 +119,15 @@ Custom property | Description | Default
         transition: left .3s .1s cubic-bezier(.51, .92, .24, 1.15), right .3s cubic-bezier(.51, .92, .24, 1.15)
       }
       .slider {
-        width: var(--paper-slide-width, 100%);
-        height: var(--paper-slide-height, 600px)
+        width: var(--paper-slide-width, 80vw);
+        height: var(--paper-slide-height, 200px)
       }
       :host ::slotted(*), :host ::content * {
         font-size: medium;
       }
       :host ::slotted(paper-slide), :host ::content paper-slide{
-        width: var(--paper-slide-width, 100%);
-        height: var(--paper-slide-height, 600px);
+        width: var(--paper-slide-width, 80vw);
+        height: var(--paper-slide-height, 200px);
         overflow-x: hidden;
         display: inline-block;
       }
